@@ -1,15 +1,15 @@
-import {paper} from '../assets'
-import {poster} from '../assets'
-import {project} from '../assets'
-import {quiz} from '../assets'
-import {Think} from '../assets'
+import { paper } from '../assets'
+import { poster } from '../assets'
+import { project } from '../assets'
+import { quiz } from '../assets'
+import { Think } from '../assets'
 
 
 const Tech = () => {
   const techItems = [
     {
       id: 1,
-      imageUrl: {paper},
+      imageSrc: paper,
       title: 'Tech Item 1',
       description: 'Description for Tech Item 1',
       button: 'Register',
@@ -17,7 +17,7 @@ const Tech = () => {
     },
     {
       id: 2,
-      imageUrl: {poster},
+      imageSrc: poster,
       title: 'Tech Item 2',
       description: 'Description for Tech Item 2',
       button: 'Register',
@@ -26,7 +26,7 @@ const Tech = () => {
     // Add register links for other items similarly
     {
       id: 3,
-      imageUrl: {project},
+      imageSrc: project,
       title: 'Tech Item 3',
       description: 'Description for Tech Item 3',
       button: 'Register',
@@ -34,7 +34,7 @@ const Tech = () => {
     },
     {
       id: 4,
-      imageUrl: {quiz},
+      imageSrc: quiz,
       title: 'Tech Item 2',
       description: 'Description for Tech Item 2',
       button: 'Register',
@@ -43,7 +43,7 @@ const Tech = () => {
     // Add register links for other items similarly
     {
       id: 5,
-      imageUrl: {Think},
+      imageSrc: Think,
       title: 'Tech Item 1',
       description: 'Description for Tech Item 1',
       button: 'Register',
@@ -51,7 +51,7 @@ const Tech = () => {
     },
     {
       id: 6,
-      imageUrl: {paper},
+      imageSrc: paper,
       title: 'Tech Item 2',
       description: 'Description for Tech Item 2',
       button: 'Register',
@@ -67,7 +67,7 @@ const Tech = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {techItems.map((item) => (
             <div key={item.id} className="hover:bg-white transition duration-300 mt-6 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 bg-white rounded-lg overflow-hidden shadow-md">
-              <img src={item.imageUrl} alt={item.title} className="w-full h-90 object-cover object-center" /> {/* Increase image size */}
+              <img src={item.imageSrc} alt={item.title} className="w-full h-90 object-cover object-center" /> {/* Increase image size */}
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
                 <p className="text-gray-700 mb-4">{item.description}</p>
@@ -86,3 +86,4 @@ const Tech = () => {
 };
 
 export default Tech;
+
