@@ -30,7 +30,7 @@ const Nav = () => {
 
             <a href="#Tech" className="p-3 hover:bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl m-2 cursor-pointer duration-300 hover:text-white transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-5">Technical</a>
             <a href="#non" className="p-3 hover:bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl m-2 cursor-pointer duration-300 hover:text-white transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-5">Non-Tech</a>
-            <a href="#footer" className="p-3 bg-red-500 text-black  rounded-md hover:bg-red-600 transition duration-300  transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-5">Contact Us</a>
+            <a href="#footer" className="p-2 bg-red-500 text-black  rounded-md hover:bg-red-600 transition duration-300  transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-5">Contact Us</a>
             
           </div>
           <div className="relative md:hidden">
