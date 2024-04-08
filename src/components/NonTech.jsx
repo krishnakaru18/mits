@@ -1,78 +1,81 @@
-import { paper } from '../assets'
-import { poster } from '../assets'
-import { project } from '../assets'
-import { quiz } from '../assets'
-import { Think } from '../assets'
-
+import { find } from '../assets';
+import { photo } from '../assets';
+import { pose } from '../assets';
 
 const NonTech = () => {
   const techItems = [
     {
       id: 1,
-      imageSrc: paper,
-      title: 'Tech Item 1',
-      description: 'Description for Tech Item 1',
+      imageSrc: photo,
+      title: 'PHOTOGRAPHY',
+      description: 'Registration Fee : 50 RS/-',
+      contact: '',
+      contact2: 'Organizer - 8919264769',
       button: 'Register',
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScHTr68igEg2LS0WWe6sfIdGxBMX_pgic1yq5hfsgr9-ZgMpg/viewform' // Add register link for item 1
     },
     {
       id: 2,
-      imageSrc: poster,
-      title: 'Tech Item 2',
-      description: 'Description for Tech Item 2',
+      imageSrc: photo,
+      title: 'Tech Item 1',
+      description: 'hivbbvhbfvf',
+      contact: 'krishna-7674733747',
+      contact2: 'krishna-7674733747',
       button: 'Register',
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScHTr68igEg2LS0WWe6sfIdGxBMX_pgic1yq5hfsgr9-ZgMpg/viewform' // Add register link for item 2
     },
     // Add register links for other items similarly
     {
       id: 3,
-      imageSrc: project,
-      title: 'Tech Item 3',
-      description: 'Description for Tech Item 3',
+      imageSrc: photo,
+      title: 'PHOTOGRAPHY',
+      description: 'hivbbvhbfvf',
+      contact: 'krishna-7674733747',
+      contact2: 'krishna-7674733747',
       button: 'Register',
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScHTr68igEg2LS0WWe6sfIdGxBMX_pgic1yq5hfsgr9-ZgMpg/viewform' // Add register link for item 1
     },
     {
+
       id: 4,
-      imageSrc: quiz,
-      title: 'Tech Item 2',
-      description: 'Description for Tech Item 2',
+      imageSrc: find,
+      title: 'CAN YOU FIND ME',
+      description: 'Registration Fee : 50 RS/-',
+      contact: 'R.Poojitha - 995985381',
+      contact2: '',
       button: 'Register',
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScHTr68igEg2LS0WWe6sfIdGxBMX_pgic1yq5hfsgr9-ZgMpg/viewform' // Add register link for item 2
     },
     // Add register links for other items similarly
     {
       id: 5,
-      imageSrc: Think,
-      title: 'Tech Item 1',
-      description: 'Description for Tech Item 1',
+      imageSrc: pose,
+      title: 'LOCK THE POSE',
+      description: 'Registration Fee : 50 RS/-',
+      contact: 'G.Thanusree-6302929091',
+      contact2: '',
       button: 'Register',
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScHTr68igEg2LS0WWe6sfIdGxBMX_pgic1yq5hfsgr9-ZgMpg/viewform' // Add register link for item 1
     },
-    {
-      id: 6,
-      imageSrc: paper,
-      title: 'Tech Item 2',
-      description: 'Description for Tech Item 2',
-      button: 'Register',
-      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScHTr68igEg2LS0WWe6sfIdGxBMX_pgic1yq5hfsgr9-ZgMpg/viewform' // Add register link for item 2
-    },
+
     // Add register links for other items similarly
   ];
 
   return (
-    <section id='non' className="m-2 rounded-2xl bg-white shadow-xl">
-      <div className="container mx-auto p-7">
-      <h2 className="text-3xl font-bold text-center text-gray-800 p-2 m-2 rounded-xl shadow-md border border-gray-100 hover:shadow-xl transform hover:scale-105 transition duration-300 bg-gray-100">NON-TECHNICAL <span className='text-red-600'>EVENTS</span></h2>
+    <section id='non' className=" bg-gray-300 shadow-xl">
+      <div className="container mx-auto p-9">
+        <h2 className="text-3xl font-bold text-center text-gray-800 p-2 m-2 rounded-xl shadow-md border border-gray-100 hover:shadow-gray-800 transform hover:scale-105 transition duration-300 bg-gray-100">NON-TECHNICAL <span className='text-red-600 hover:underline'>EVENTS</span></h2>      
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {techItems.map((item) => (
-            <div key={item.id} className="hover:bg-white transition duration-300 mt-6 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 bg-white rounded-lg overflow-hidden shadow-md">
-              <img src={item.imageSrc} alt={item.title} className="w-full h-90 object-cover object-center" /> {/* Increase image size */}
+            <div key={item.id} className="hover:bg-white transition duration-300 mt-6 transform hover:scale-105 focus:outline-none bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl">
+              <img src={item.imageSrc} alt={item.title} className="w-full h-fit object-cover object-center" /> {/* Increase image size */}
               <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                <p className="text-gray-700 mb-4">{item.description}</p>
-                <div className="flex justify-between">
-                  <a href={item.registerLink} className="bg-blue-500 text-white px-6 py-3 rounded-xl hover:bg-blue-600 transition duration-300 mt-6 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50">
+                <h4 className="text-xl font-semibold">{item.title}</h4>
+                <p className="text-gray-700">{item.description}</p>
+                <p className="text-gray-700">{item.contact}</p>
+                <p className="text-gray-700">{item.contact2}</p>
+                <div className="flex justify-between px-4">
+                  <a href={item.registerLink} className="shadow-lg shadow-blue-400/50 hover:shadow-xl hover:shadow-blue-500/50 bg-blue-400 text-white px-6 py-3 rounded-2xl hover:bg-blue-600 transition duration-300 my-4 transform hover:scale-105 focus:outline-none ">
                     {item.button}
                   </a>
                 </div>
