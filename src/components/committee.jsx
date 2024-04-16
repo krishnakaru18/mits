@@ -79,7 +79,7 @@ const Committee = () => {
               {committee.members.map((member) => (
                 <div key={member.id} className="bg-white shadow-md rounded px-4 py-3">
                   <h3 className="text-lg font-semibold mb-1"> {member.name}</h3>
-                  <p className="text-gray-700 mb-1">Role: {member.role}</p>
+                  <p className="text-gray-700 mb-1"> {member.role}</p>
                 </div>
               ))}
             </div>
