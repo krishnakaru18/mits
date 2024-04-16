@@ -1,4 +1,4 @@
-import { Nav, Home, About, Tech, NonTech, Footer } from "./components"
+import { Nav, Home, About, Tech, NonTech, Footer, Committee } from "./components"
 import Headroom from "react-headroom"
 
 const App = () => {
@@ -20,6 +20,9 @@ const App = () => {
     </div>
     <div>
       <NonTech />
+    </div>
+    <div>
+      <Committee />
     </div>
     <div>
       <Footer />
