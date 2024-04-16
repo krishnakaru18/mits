@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
       <div className="bg-slate-600 py-4">
         <div className="container mx-auto px-4">
-          <p className="text-center text-slate-100"> &copy; 2024 Your Company. All rights reserved.</p>
+          <p className="text-center text-slate-100"> &copy; Eclectica 2K24. All rights reserved.</p>
         </div>
       </div>
     </footer>
