@@ -16,6 +16,7 @@ const Footer = () => {
               <li><a href="#about" className="text-gray-400 hover:text-white px-3 py-2 rounded-md transition duration-300">About Event</a></li>
               <li><a href="#Tech" className="text-gray-400 hover:text-white px-3 py-2 rounded-md transition duration-300">Tech</a></li>
               <li><a href="#non" className="text-gray-400 hover:text-white px-3 py-2 rounded-md transition duration-300">Non-Tech</a></li>
+              <li><a href="#com" className="text-gray-400 hover:text-white px-3 py-2 rounded-md transition duration-300">Committee</a></li>
             </ul>
           </div>
           <div>
@@ -29,19 +30,19 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
             <div className="flex items-center">
-              <a href="https://www.instagram.com/eclectica2k24__mits/" className="shadow-xl rounded-lg   hover:shadow-red-500/50 text-red-400 hover:text-red-400 mr-4 transition duration-300 ease-in-out transform hover:scale-110">
+              <a href="https://www.instagram.com/eclectica2k24__mits/" className="shadow-xl rounded-lg   shadow-red-500/50 text-red-400 hover:text-red-600 mr-4 transition duration-300 ease-in-out transform hover:scale-110">
                 <FaInstagram size={32} />
               </a>
-              <a href="#" className="shadow-xl rounded-lg   hover:shadow-blue-500/50 text-blue-400 hover:text-blue-500 mr-4 transition duration-300 ease-in-out transform hover:scale-110">
+              <a href="#" className="shadow-xl rounded-lg   shadow-blue-500/50 text-blue-400 hover:text-blue-600 mr-4 transition duration-300 ease-in-out transform hover:scale-110">
                 <FaLinkedin size={32} />
               </a>
-              <a href="#" className="shadow-xl rounded-2xl   hover:shadow-green-500/50 text-green-400 hover:text-green-500 mr-4 transition duration-300 ease-in-out transform hover:scale-110">
+              <a href="#" className="shadow-xl rounded-2xl   shadow-green-500/50 text-green-400 hover:text-green-600 mr-4 transition duration-300 ease-in-out transform hover:scale-110">
                 <FaWhatsapp size={32} />
               </a>
-              <a href="https://mits.ac.in/" className="shadow-xl rounded-lg  hover:shadow-yellow-500/50 text-yellow-400 hover:text-yellow-500 mr-4 transition duration-300 ease-in-out transform hover:scale-110">
+              <a href="https://mits.ac.in/" className="shadow-xl rounded-lg  shadow-yellow-500/50 text-yellow-500 hover:text-yellow-400 mr-4 transition duration-300 ease-in-out transform hover:scale-110">
                 <FaUniversity size={32} />
               </a>
-              <a href="#" className="shadow-xl rounded-xl  hover:shadow-blue-500/50 text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out transform hover:scale-110">
+              <a href="#" className="shadow-xl rounded-xl  shadow-blue-500/50 text-blue-400 hover:text-blue-600 transition duration-300 ease-in-out transform hover:scale-110">
                 <FaFacebook size={32} />
               </a>
             </div>
