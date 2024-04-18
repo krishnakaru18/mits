@@ -1,16 +1,17 @@
 import { find } from '../assets';
 import { photo } from '../assets';
 import { pose } from '../assets';
+import { Hand } from '../assets';
 
 const NonTech = () => {
   const techItems = [
     {
       id: 1,
-      imageSrc: photo,
-      title: 'PHOTOGRAPHY',
+      imageSrc: Hand,
+      title: 'HAND CRAFTS',
       description: 'Registration Fee : 50 RS/-',
       contact: '',
-      contact2: 'Organizer - 8919264769',
+      contact2: 'C.Sarika - 9866722493',
       button: 'Register',
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScHTr68igEg2LS0WWe6sfIdGxBMX_pgic1yq5hfsgr9-ZgMpg/viewform' // Add register link for item 1
     },

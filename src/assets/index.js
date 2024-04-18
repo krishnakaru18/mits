@@ -16,6 +16,7 @@ import Think from './Think.jpg'
 import find from './find.png'
 import photo from './photo.png'
 import pose from './pose.png'
+import Hand from './Hand.png'
 
 export {
     about,
@@ -32,5 +33,6 @@ export {
     find,
     photo,
     pose,
+    Hand,
 }
 

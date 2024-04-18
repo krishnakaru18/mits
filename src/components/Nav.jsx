@@ -23,7 +23,7 @@ const Nav = () => {
           <div className="hidden md:flex md:items-center m-2 p-2 ">
             <a href="#home" className="hover:bg-sky-200  shadow-xl   hover:shadow-sky-500/50 ... text-black p-3 transform transition duration-300  hover:scale-105  focus:outline-none ">Home</a>
             <a href="#about" className="hover:bg-sky-200 shadow-xl  hover:shadow-sky-500/50  text-black  p-3 transform transition duration-300 hover:scale-105 focus:outline-none">About</a>
-            <a href="#Tech" className="hover:bg-sky-200 shadow-xl  hover:shadow-sky-500/50 text-wblack p-3 transform transition duration-300 hover:scale-105 focus:outline-none">Technical</a>
+            <a href="#Tech" className="hover:bg-sky-200 shadow-xl  hover:shadow-sky-500/50 text-black p-3 transform transition duration-300 hover:scale-105 focus:outline-none">Technical</a>
             <a href="#non" className="hover:bg-sky-200 shadow-xl  hover:shadow-sky-500/50  text-black  p-3 transform transition duration-300 hover:scale-105 focus:outline-none">Non-Tech</a>
             <a href="#com" className="hover:bg-sky-200 shadow-xl  hover:shadow-sky-500/50  text-black  p-3 transform transition duration-300 hover:scale-105 focus:outline-none">Committee</a>
             <a href="#footer" className="hover:bg-sky-200 shadow-xl  hover:shadow-sky-500/50  text-black  p-3 transform transition duration-300 hover:scale-105 focus:outline-none">Contact Us</a>

@@ -54,8 +54,8 @@ const Tech = () => {
       imageSrc: Think,
       title: 'THINK & CONNECT',
       description: 'Registration Fee : 100 RS/-',
-      contact: 'krishna-7674733747',
-      contact2: 'krishna-7674733747',
+      contact: 'P. Shakeer-9704163382',
+      contact2: 'V. Lakshmi-8197142643',
       button: 'Register',
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScHTr68igEg2LS0WWe6sfIdGxBMX_pgic1yq5hfsgr9-ZgMpg/viewform' // Add register link for item 1
     },
