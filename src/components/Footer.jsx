@@ -21,11 +21,11 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Student Coordinators</h3>
-            <p className="text-gray-300">k.Vamsidhar Reddy - 8919264769</p>
-            <p className="text-gray-300">k.Karthink Raju - 8897589939</p>
+            <p className="text-gray-300">K.Vamsidhar Reddy - 8919264769</p>
+            <p className="text-gray-300">K.Karthink Raju - 8897589939</p>
             <p className="text-gray-300">P.Jahnavi - 9704429707</p>
             {/* Added name and phone number */}
-            <p className="text-gray-300">V.Uma maheswari = 9573623259</p>
+            <p className="text-gray-300">V.Uma maheswari - 9573623259</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4 ">Follow Us</h3>
