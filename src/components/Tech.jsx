@@ -54,8 +54,8 @@ const Tech = () => {
       imageSrc: Think,
       title: 'THINK & CONNECT',
       description: 'Registration Fee : 100 RS/-',
-      contact: 'P. Shakeer-9704163382',
-      contact2: 'V. Lakshmi-8197142643',
+      contact: 'krishna-7674733747',
+      contact2: 'krishna-7674733747',
       button: 'Register',
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScHTr68igEg2LS0WWe6sfIdGxBMX_pgic1yq5hfsgr9-ZgMpg/viewform' // Add register link for item 1
     },
@@ -73,13 +73,13 @@ const Tech = () => {
   ];
 
   return (
-    <section id='Tech' className=" bg-gray-200 shadow-xl">
+    <section id='Tech' className=" bg-gray-300 shadow-xl">
       <div className="container mx-auto p-9">
         <h2 className="text-3xl font-bold text-center text-gray-800 p-2 m-2 rounded-xl shadow-md border border-gray-100 hover:shadow-gray-800 transform hover:scale-105 transition duration-300 bg-gray-100">TECHNICAL <span className='text-red-600'>EVENTS</span></h2>      
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-9 mb-4">
           {techItems.map((item) => (
-            <div key={item.id} className="hover:bg-white transition duration-300 mt-6 transform hover:scale-105 focus:outline-none bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl">
-              <img src={item.imageSrc} alt={item.title} className="w-fit h-fit object-cover object-center" /> {/* Increase image size */}
+            <div key={item.id} className="shadow-xl hover:shadow-sky-500 shadow-sky-500/50 transition duration-300 mt-6 transform hover:scale-105 focus:outline-none bg-white rounded-2xl overflow-hidden  hover:shadow-xl">
+              <img src={item.imageSrc} alt={item.title} className="w-full h-fit object-cover object-center" /> {/* Increase image size */}
               <div className="p-2">
                 <h4 className="text-xl font-semibold">{item.title}</h4>
                 <p className="text-gray-700">{item.description}</p>
@@ -95,6 +95,7 @@ const Tech = () => {
           ))}
         </div>
       </div>
+      <hr />
     </section>
   );
 };

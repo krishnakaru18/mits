@@ -7,7 +7,7 @@ import head from './head.png'
 import Mpl from './Mpl.png'
 
 import paper from './paperp.jpg'
-import poster from './poster.png'
+import poster from './poster.jpg'
 import project from './pro-expo.jpg'
 import quiz from './quiz.jpg'
 import Think from './Think.jpg'
@@ -35,4 +35,3 @@ export {
     pose,
     Hand,
 }
-

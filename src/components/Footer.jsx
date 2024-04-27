@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-semibold mb-4">About Us</h3>
-            <p className="text-slate-300">One-day National Level Technical Symposium named "ECLECTICA 2K24," hosted by the Department of ECE .</p>
+            <p className="text-slate-300">One-day National Level Technical Symposium named "ECLECTICA 2K24," hosted by the Department of ECE. Annually, the Electronics and Communication Department orchestrates a national level open-source talent program aimed at fostering innovative ideas and advancing technology.</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
@@ -28,7 +28,7 @@ const Footer = () => {
             <p className="text-gray-300">John Doe - +1234567890</p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
+            <h3 className="text-xl font-semibold mb-4 ">Follow Us</h3>
             <div className="flex items-center">
               <a href="https://www.instagram.com/eclectica2k24__mits/" className="shadow-xl rounded-lg   shadow-red-500/50 text-red-400 hover:text-red-600 mr-4 transition duration-300 ease-in-out transform hover:scale-110">
                 <FaInstagram size={32} />
@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
       <div className="bg-slate-600 py-4">
         <div className="container mx-auto px-4">
-          <p className="text-center text-slate-100"> &copy; Eclectica 2K24. All rights reserved.</p>
+          <p className="text-center text-slate-100"> &copy;  Eclectica 2K24. All rights reserved.</p>
         </div>
       </div>
     </footer>

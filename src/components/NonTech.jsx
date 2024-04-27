@@ -11,7 +11,7 @@ const NonTech = () => {
       title: 'HAND CRAFTS',
       description: 'Registration Fee : 50 RS/-',
       contact: '',
-      contact2: 'C.Sarika - 9866722493',
+      contact2: 'C. Sarika - 9866722493',
       button: 'Register',
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLScHTr68igEg2LS0WWe6sfIdGxBMX_pgic1yq5hfsgr9-ZgMpg/viewform' // Add register link for item 1
     },
@@ -63,12 +63,12 @@ const NonTech = () => {
   ];
 
   return (
-    <section id='non' className=" bg-gray-300 shadow-xl">
+    <section id='non' className=" bg-gray-200 shadow-xl">
       <div className="container mx-auto p-9">
         <h2 className="text-3xl font-bold text-center text-gray-800 p-2 m-2 rounded-xl shadow-md border border-gray-100 hover:shadow-gray-800 transform hover:scale-105 transition duration-300 bg-gray-100">NON-TECHNICAL <span className='text-red-600 hover:underline'>EVENTS</span></h2>      
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-9">
           {techItems.map((item) => (
-            <div key={item.id} className="hover:bg-white transition duration-300 mt-6 transform hover:scale-105 focus:outline-none bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl">
+            <div key={item.id} className="shadow-xl hover:shadow-sky-500 shadow-sky-500 transition duration-300 mt-6 transform hover:scale-105 focus:outline-none bg-white rounded-2xl overflow-hidden  hover:shadow-xl">
               <img src={item.imageSrc} alt={item.title} className="w-full h-fit object-cover object-center" /> {/* Increase image size */}
               <div className="p-4">
                 <h4 className="text-xl font-semibold">{item.title}</h4>
@@ -76,7 +76,7 @@ const NonTech = () => {
                 <p className="text-gray-700">{item.contact}</p>
                 <p className="text-gray-700">{item.contact2}</p>
                 <div className="flex justify-between px-4">
-                  <a href={item.registerLink} className="shadow-lg shadow-blue-400/50 hover:shadow-xl hover:shadow-blue-500/50 bg-blue-400 text-white px-6 py-3 rounded-2xl hover:bg-blue-600 transition duration-300 my-4 transform hover:scale-105 focus:outline-none ">
+                  <a href={item.registerLink} className="shadow-lg shadow-blue-400 hover:shadow-2xl hover:shadow-blue-500/50 bg-blue-400 text-white px-6 py-3 rounded-2xl hover:bg-blue-600 transition duration-300 my-4 transform hover:scale-105 focus:outline-none ">
                     {item.button}
                   </a>
                 </div>
@@ -85,9 +85,9 @@ const NonTech = () => {
           ))}
         </div>
       </div>
+      <hr />
     </section>
   );
 };
 
 export default NonTech;
-

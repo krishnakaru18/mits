@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {},
   },
+  
   plugins: [
     function ({addUtilities}) {
       const newUtilities = {
@@ -40,3 +41,4 @@ export default {
   
   ],
 }
+
