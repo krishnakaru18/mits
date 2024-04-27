@@ -20,12 +20,12 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-            <p className="text-gray-300">krih-767656565</p>
-            <p className="text-gray-300">hhhuy-7665544443</p>
-            <p className="text-gray-300">Phone: +1234567890</p>
+            <h3 className="text-xl font-semibold mb-4">Student Coordinators</h3>
+            <p className="text-gray-300">k.Vamsidhar Reddy - 8919264769</p>
+            <p className="text-gray-300">k.Karthink Raju - 8897589939</p>
+            <p className="text-gray-300">P.Jahnavi - 9704429707</p>
             {/* Added name and phone number */}
-            <p className="text-gray-300">John Doe - +1234567890</p>
+            <p className="text-gray-300">V.Uma maheswari = 9573623259</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4 ">Follow Us</h3>
